@@ -14,3 +14,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.header {
+    min-height: 300px;
+    }
