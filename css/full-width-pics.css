@@ -18,3 +18,25 @@ body {
 .header {
     min-height: 500px;
     }
+
+
+.hintergrund {
+    
+    background-color: #0489B1 ; 
+    background-color: ; 
+    font-family: inherit;
+    color: aliceblue;
+    text-align: center;
+  padding: 10px;
+    margin: 20px;
+
+
+
+    }
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
