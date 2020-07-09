@@ -43,3 +43,49 @@ body {
 .img-wrapper {
     width:inherit;
 }
+
+.tg-wrapper {
+    background-color: #a6a6a6;
+    min-height: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.tg-img {
+    width: 20%;
+    float:left;
+}
+
+.tg-img img {
+    max-height: 200px;
+}
+
+.tg-text {
+    width:80%;
+    color:white;
+    float:left;
+}
+
+@media (max-width: 991px) {
+    .tg-img {
+        width: 30%;
+    }
+    .tg-text {
+        width:70%;
+    }
+}
+
+@media (max-width: 765px) {
+    .tg-img {
+        float: none;
+        text-align: center;
+        width:inherit;
+    }
+    .tg-text {
+        float: none;
+        text-align: center;
+        width:inherit;
+    }
+    
+}
