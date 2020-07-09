@@ -28,7 +28,6 @@ body {
     color: aliceblue;
     text-align: center;
   padding: 10px;
-    margin: 20px;
 
 
 
@@ -39,4 +38,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 10%;
+}
+
+.img-wrapper {
+    width:inherit;
 }
