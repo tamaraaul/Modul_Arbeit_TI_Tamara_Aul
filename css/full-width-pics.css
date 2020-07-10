@@ -61,6 +61,12 @@ body {
     max-height: 200px;
 }
 
+.tg-img:hover {
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
 .tg-text {
     width:80%;
     color:white;
